@@ -10,7 +10,8 @@ def create_pdf(file_name, text):
     c.drawString(100, 730, text)
 
     # Speichern und Schließen der PDF
-    c.save()
+    with open(file_name, "wb") as f:
+        c.save()
 
 # Testinhalt
 text = "Hallo, das ist ein kleiner Text. hier steht nicht viel, ich wollte nur etwas stehen haben."
