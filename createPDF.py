@@ -13,7 +13,7 @@ def create_pdf(file_name, text):
     c.save()
 
 # Testinhalt
-text = "Hallo, ich ist ein kleiner Text. hier steht nicht viel, ich wollte nur etwas stehen haben."
+text = "Hallo, das ist ein kleiner Text. hier steht nicht viel, ich wollte nur etwas stehen haben."
 
 # Name der PDF
 file_name = "files/example.pdf"
