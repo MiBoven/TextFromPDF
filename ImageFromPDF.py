@@ -37,7 +37,7 @@ def extract_images_from_pdf(pdf_file_path, output_folder):
     return extracted_images
 
 #pdf_file_path = "files/spin.pdf"
-pdf_file_path = "files/Informationsmaterial.pdf"
+pdf_file_path = "files/BA_Michel_Bovender_2015.pdf"
 
 image_folder = "images"
 
